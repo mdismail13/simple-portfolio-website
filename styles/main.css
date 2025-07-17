@@ -143,6 +143,7 @@ main{
 
 .about-me-container{
     margin-top: 130px;
+    margin-bottom: 130px;
     padding: 131px 156px;
     border-radius: 10px;
 }
@@ -185,6 +186,100 @@ main{
     justify-content: space-between;
     padding: 0 22.5px;
 }
+
+/* what-i-do section styles */
+
+.what-i-do{
+    margin-bottom: 130px;
+}
+.wid-title{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.wid-description{
+    font-size: 1.125rem;
+    text-align: center;
+    max-width: 910px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.skill{
+    box-shadow: 5px 5px 10px #757575;
+    padding: 30px;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.skill-title{
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+/* resume section styles */
+
+.resume-title{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 113px;
+}
+
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.resume-container > div{
+    flex: 1;
+}
+
+.summary-btn{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.edu-title, .exp-title{
+    font-size: 1.875rem;
+    font-weight: 700;
+}
+
+.ec-title, .ex-title{
+    font-size: 1.5625rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.ec-subtitle, .ex-subtitle{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.ec-description, .ex-description{
+    margin-top: 20px;
+}
+
+/* footer section styles */
+
+.footer{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 130px 230px;
+    margin-top: 113px;
+}
+
 
 /* responsive section */
 
