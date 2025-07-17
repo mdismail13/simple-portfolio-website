@@ -46,6 +46,11 @@
     padding: 18px 35px;
 }
 
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 /* header section styles */
 
 .header{
@@ -137,9 +142,9 @@
 /* about-me section styles */
 
 .about-me-container{
-    max-width: 1140px;
-    margin: 130px auto;
+    margin-top: 130px;
     padding: 131px 156px;
+    border-radius: 10px;
 }
 .about-me-content{
     text-align: center;
@@ -155,7 +160,7 @@
 }
 
 .about-me-description{
-    font-size: 1.5rem;
+    font-size: 1.125rem;
     margin-bottom: 30px;
     line-height: 1.875rem;
 }
