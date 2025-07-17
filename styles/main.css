@@ -64,14 +64,23 @@
     padding-left: 0;
     display: flex;
     align-items: center;
+    gap: 50px;
 }
 
 .nav-item{
     list-style: none;
-    margin-right: 50px;
 }
 
 .nav-links{
     text-decoration: none;
     font-size: 1.25rem;
+}
+
+
+/* responsive section */
+
+@media screen and (max-width:576px){
+    .navbar, .nav-items{
+        flex-direction: column;
+    }
 }
