@@ -1,3 +1,5 @@
+/* Font styles section */
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 
@@ -8,4 +10,26 @@
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+}
+
+/* Colors section */
+
+.primary-color{
+    color: #FD6E0A;
+}
+
+.secondary-color{
+    background-color: #FFF8F3;
+}
+
+.dark-1{
+    color: #181818;
+}
+
+.dark-2{
+    color: #474747;
+}
+
+.dark-3{
+    color: #757575;
 }
