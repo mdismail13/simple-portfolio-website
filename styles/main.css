@@ -34,6 +34,17 @@
     color: #757575;
 }
 
+/* shared styles section*/
+
+.btn-primary{
+    background-color: #FD6E0A;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 35px;
+}
 
 /* navbar section styles */
 
@@ -52,6 +63,7 @@
 .nav-items{
     padding-left: 0;
     display: flex;
+    align-items: center;
 }
 
 .nav-item{
