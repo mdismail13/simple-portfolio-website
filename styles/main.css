@@ -278,8 +278,54 @@ main{
     margin: 0 auto;
     padding: 130px 230px;
     margin-top: 113px;
+    display: flex;
+    align-items: start;
+    gap: 117px;
 }
 
+.footer > div{
+    flex: 1;
+}
+
+
+.connect-title, .form-title{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.connect-title{
+    margin-bottom: 20px;
+}
+
+.connect-description{
+    margin-bottom: 30px;
+}
+
+.connect-links{
+    margin-right: 24px;
+}
+
+.form-items{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 24px;
+    margin-top: 28px;
+}
+
+.form-items input[type="text"], input[type="email"], textarea{
+    height: 64px;
+    padding-left: 30px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+textarea{
+    padding-top: 18px;
+    height: 180px;
+    font-size: 1.125rem;
+}
 
 /* responsive section */
 
